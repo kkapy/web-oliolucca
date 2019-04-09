@@ -1,0 +1,297 @@
+@charset "UTF-8";
+/* CSS Document */
+html,body {
+	width: 100%;
+	height: 100%;
+}
+body {
+	font-family: Arial, Roboto, “Droid Sans”, “游ゴシック”, YuGothic, “ヒラギノ角ゴ ProN W3”, “Hiragino Kaku Gothic ProN”, “メイリオ”, Meiryo, sans-serif;
+	font-size: 15px;
+	line-height: 2;
+	color: #333;
+}
+a {
+	text-decoration:none;
+	color: #333;
+}
+.logofont {
+	font-family: 'Cantata One', serif;
+}
+.outlink {
+  background:url(../images/outlink.png) no-repeat right center;
+  padding-right: 22px;
+  margin-right: 2px;
+}
+.backcolor-fff {
+	background-color: #fff;
+}
+.backcolor-000 {
+	background-color: #333;
+}
+.color-fff {
+	color: #fff;
+}
+.color-000 {
+	color: #333;
+}
+.text-center {
+	text-align: center;
+}
+.text-left {
+	text-align: left;
+}
+
+/* -------- 【tablet】main image -------- */
+ #main {
+	position: relative;
+	height: 600px;
+	background:url(../images/bg.jpg) top center / cover no-repeat;
+}
+#maintitle {
+	font-size: 70px;
+	letter-spacing: 3px;
+	line-height: 100px;
+	text-shadow:0px 0px 10px rgba(0, 0, 0, 0.7);
+}
+#title {
+	position: absolute;
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	margin: auto;
+	width: 700px;
+	height: 150px;
+	max-width: 100%;
+	max-height: auto;
+}
+#subtitle {
+	font-size: 21px;
+	font-weight: bold;
+	line-height: 40px;
+	border:solid 3px #fff;
+	box-shadow:0px 0px 5px 3px rgba(0, 0, 0, 0.2)
+                ,0px 0px 5px 3px rgba(0, 0, 0, 0.3) inset;
+	text-shadow: 0px 0px 10px rgba(0, 0, 0, 1);
+	width: 320px;
+	height: 40px;
+	margin : 0 auto;
+	padding: 0 auto;
+}
+
+/* -------- 【tablet】menu -------- */
+header, .hide-menu{
+	display: table;
+	width: 100%;
+	z-index: 1;
+	font-family: 'Montserrat', sans-serif; /*セリフ体英語フォント*/
+	background-color: #fff;
+}
+#hide-menu {
+	position: fixed;
+	width: 100%;
+	display: none;
+	top: 0;
+	z-index: 1;
+	opacity: 0.95;
+}
+.hide-menu-wrapper {
+	position: relative;
+	height: 80px;
+}
+.logo {
+	display: table-cell;
+	vertical-align: middle;
+	font-size: 23px;
+	width: 24%;
+	text-align: center;
+}
+.menu-wrapper {
+	  position: relative;
+	  height: 130px;
+}
+.sp-menu-icon {
+	display: none;
+}
+.menu-ul {
+	position: absolute;
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	margin: auto;
+	width: 555px;
+	height: 35px;
+}
+.menu-ul a{
+  display: table-cell;
+}
+.menu-ul li{
+	font-size: 13px;
+	padding: 0 25px 0 0;
+}
+.menu-ul li#TOP {
+	display:none;
+}
+.menu-onlineshop {
+	padding: 3px 8px;
+}
+.menu-onlineshop li{
+	background:url(../images/outlink.png) no-repeat 97% center #333;
+}
+
+/* -------- 【tablet】all article -------- */
+article {
+	text-align: center;
+	padding: 100px 0 50px 0;
+	margin: 0 auto;
+}
+article h1 {
+	margin-bottom: 50px;
+	font-weight:bold;
+	font-size: 18px;
+}
+article p {
+	line-height: 250%;
+}
+.smalltext {
+	font-size: 13.5px;
+}
+.text_under {
+	text-decoration: underline
+}
+.head_under {
+	border: solid #333;
+	border-width: 0 0 3px 0;
+}
+.open_button {
+	display: none;
+}
+
+.pc_br:before {
+	content: "\A";
+	white-space: pre;
+	font-weight:inherit;
+}
+
+/* -------- 【tablet】1 - CONCEPT -------- */
+#CONCEPT_img {
+	width: 100%;
+	height: auto;
+	vertical-align: bottom;
+}
+/* -------- 【tablet】2 - OLIVE LIFE -------- */
+#OLIVELIFE {
+	background:url(../images/back2.png) no-repeat top center;
+	background-size:contain;
+	width: 100%;
+}
+/* -------- 【tablet】3 - PROFILE -------- */
+
+/* -------- 【tablet】4 - ACCESS - shopinfo -------- */
+#shopinfo {
+	width: 75%;
+	display: table;
+	margin: 0 auto;
+}
+#shopdetail {
+	display: table-cell;
+	vertical-align:top;
+	width: 100%;
+}
+#detail-intro {
+	font-size: 19px;
+	margin-bottom: 10px;
+	padding-bottom: 8px;
+}
+#shopdetail .row {
+	width: 80px;
+}
+td {
+	padding: 5px 0;
+}
+.cafespace {
+	padding-top: 15px;
+}
+.googlemap{
+	padding: 3px 3px 3px 5px;
+	margin-left: 5px;
+	font-size: 11px;
+}
+#map {
+	width: 270px;
+	height: 270px;
+	margin: 0 auto;
+}
+#spmap {
+	display: none;
+}
+
+/* -------- 【tablet】4 - ACCESS - online shop -------- */
+#onlineshop {
+	background:url(../images/onlineshop.png) #fff center center / cover no-repeat;
+	width: 75%;
+	border: solid 3px #333;
+	padding: 40px 0;
+	margin: 60px auto;
+}
+#onlineshop p {
+	margin: 0 auto;
+	width: 310px;
+	font-weight: bold;
+	font-size: 22px;
+	line-height: 30px;
+}
+#onlineshop .onlineshop-button {
+	margin-top: 10px;
+	font-size: 18px;
+	padding: 10px 0;
+}
+
+/* -------- 【tablet】5 - NEWS-------- */
+#NEWS {
+	background-color: #FAFAFA;
+	padding-bottom: 100px;
+	width: 100%;
+}
+#news-wrapper{
+	margin:0 auto;
+	background-color: #fff;
+	max-width: 100%;
+	width:600px;
+	padding: 50px 0;
+}
+#fb-wrapper {
+	margin: 0 auto;
+	margin-bottom: 30px;
+	width: 500px;
+	max-width: 100%;
+}
+.seemore {
+	font-size: 15px;
+	font-weight: bold;
+	padding: 8px 12px 8px 0px;
+	margin: 0 auto;
+	width: 200px;
+	background:url(../images/outlink.png) no-repeat 95% center #333;
+}
+
+/* -------- footer-------- */
+footer {
+	padding-bottom: 5px;
+	line-height:1.5;
+}
+.sns {
+text-align:left;
+padding: 5px 0;
+margin: 0 auto;
+width: 280px;
+}
+.sns li {
+display:inline-block;
+margin-right: 8px;
+padding: 0 auto;
+}
+.sns li:last-child {
+	margin-right: 0;
+}

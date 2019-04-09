@@ -1,0 +1,183 @@
+@charset "UTF-8";
+/* CSS Document */
+
+body {
+	font-size: 13px;
+	max-width: 100%;
+}
+
+/* -------- 【sp】main image -------- */
+#main {
+	position: relative;
+	width: 100%;
+	height:100%;
+	background:url(../images/card.png) no-repeat center center;
+	background-size:cover;
+}
+#title {
+	display: none;
+}
+
+/* -------- 【sp】menu -------- */
+header, #hide-menu {
+	position:fixed;
+	width: 100%;
+	padding: 0 ;
+	background: none;
+}
+.logo {
+	display: none;
+}
+.sp-menu-icon {
+	position:absolute;
+	display:block;
+	top: 0;
+	right:0;
+	padding: 20px;
+	cursor:pointer;
+	z-index: 2;
+}
+.menu-ul {
+	width: 100%;
+	height: 0;
+	margin: 0 auto;
+}
+.menu-ul a{
+ 	display:block;
+	background-color: #fff;
+	opacity: 0.9;
+}
+.menu-ul li {
+	padding: 15px 0;
+	width: 100%;
+	font-size: 18px;
+}
+.menu-ul li#TOP {
+	display: block;
+}
+.menu-onlineshop {
+	padding: 0;
+}
+
+/* -------- 【sp】all article -------- */
+article {
+	width: 100%;
+	text-align: left;
+	padding: 25px 0;
+	margin: 20px auto;
+}
+article p {
+	line-height: 30px;
+}
+article h1 {
+	margin: 0;
+}
+.contents {
+	width: 70%;
+	background-color: #fff;
+	margin: 0 auto;
+	padding: 25px 0;
+	border: solid 25px #fff;
+}
+.head_under {
+	border-width: 0 0 2px 0;
+}
+.headline {
+	/*border-bottom: solid 2px #000;*/
+	padding-bottom: 5px;
+	margin: 0 auto 20px auto;
+	text-align: center;
+	font-size: 16px;
+	font-weight: bold;
+}
+.open_read {
+	display: none;
+}
+.open_button {
+	font-family: 'Montserrat', sans-serif; /*セリフ体英語フォント*/
+	display: block;
+	width: 100%;
+	padding: 5px 0;
+	margin: 20px auto 0 auto;
+	text-align: center;
+	border: solid 2px #333;
+	cursor: pointer;
+}
+/* -------- 【tablet】1 - CONCEPT -------- */
+ #CONCEPT_img {
+	display: none;
+}
+/* -------- 【tablet】2 - OLIVE LIFE -------- */
+#OLIVELIFE {
+	background:url(../images/kone.jpg) top center / cover no-repeat;
+	padding: 60px 0;
+}
+/* -------- 【tablet】3 - PROFILE -------- */
+
+/* -------- 【tablet】4 - ACCESS - shopinfo -------- */
+#ACCESS {
+	padding: 40px 20px 20px 20px;
+	width: 80%;
+}
+#shopinfo {
+	width: 80%;
+}
+#detail-intro {
+	text-align: center;
+}
+.googlemap, #map {
+	display: none;
+}
+.googlemap{
+	padding: 0px 4px;
+	margin-left: 5px;
+}
+#spmap {
+	display: inline-block;
+}
+
+.br:before {
+	content: "\A";
+	white-space: pre;
+	font-weight:inherit;
+}
+
+/* -------- 【tablet】4 - ACCESS - online shop -------- */
+#onlineshop {
+	width: 100%;
+	border: solid 2px #333;
+	padding: 20px 0 5px 0;
+	margin: 40px auto;
+}
+#onlineshop p {
+	width: 100%;
+	font-size: 18px;
+	line-height: 25px;
+}
+#onlineshop .onlineshop-button {
+	padding: 10px 0;
+	font-size: 15px;
+}
+
+/* -------- 【tablet】5 - NEWS-------- */
+#NEWS {
+	width: 100%;
+	padding-bottom: 40px;
+	background-color: #fff;
+}
+#news-wrapper {
+	width: 85%;
+	padding: 0;
+}
+#fb-wrapper {
+	margin-bottom: 15px;
+}
+.seemore {
+	padding-left:15px;
+	width: 180px;
+}
+
+/* -------- 【tablet】footer-------- */
+footer {
+	font-size: 11px;
+}
